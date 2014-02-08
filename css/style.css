@@ -1,9 +1,7 @@
-body{
-	background:lightblue;
+.center       { 
+	text-align: center;
+	background:#ccc !important;
 }
-*{
-	border:1px solid lightgray;
-}
-.center       { text-align: center }
+
 td.changed    { color: red }
 
