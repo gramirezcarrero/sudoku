@@ -12,14 +12,23 @@ table-responsive { border:none; }
 	border-radius: 30px;
 	text-align: center;
 	margin: 3px;
+
 }
 .border input{
 	background: #A1D4CD;
 	border:white 0.5px solid;
+	color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 .middle input{
 	background:#FAF6F5;
 	border:#A1D4CD 0.5px solid;
+	color: #A1D4CD;
 
 }
 td.changed    { color: red }
