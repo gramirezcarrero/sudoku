@@ -1,4 +1,4 @@
-*{border:none;}
+table-responsive { border:none; }
 .center       {
 	text-align: center;
 	background:white !important;
@@ -9,8 +9,9 @@
 .td-class input{
 	height:  30px;
 	width: 30px;
-	border-radius: 3px;
+	border-radius: 30px;
 	text-align: center;
+	margin: 3px;
 }
 .border input{
 	background: #A1D4CD;
