@@ -1,7 +1,24 @@
-.center       { 
+*{border:none;}
+.center       {
 	text-align: center;
-	background:#ccc !important;
+	background:white !important;
 }
+.td-class {
+	/*border:solid black 2px;*/
+}
+.td-class input{
+	height:  30px;
+	width: 30px;
+	border-radius: 3px;
+	text-align: center;
+}
+.border input{
+	background: #A1D4CD;
+	border:white 0.5px solid;
+}
+.middle input{
+	background:#FAF6F5;
+	border:#A1D4CD 0.5px solid;
 
+}
 td.changed    { color: red }
-
