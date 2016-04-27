@@ -1,11 +1,25 @@
-table-responsive { border:none; }
+.table-responsive { border:none; }
 .center       {
 	text-align: center;
 	background:white !important;
 }
+.table-responsive *{
+	border: none;
+}
 .td-class {
 	/*border:solid black 2px;*/
+
 }
+.table-responsive .td-class{
+	height:  90px;
+	width: 90px;
+}
+.solve td{
+	width: 30px;
+	height: 30px;
+	/*background: lightblue;*/
+}
+
 .td-class input{
 	height:  30px;
 	width: 30px;

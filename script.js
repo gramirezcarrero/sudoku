@@ -138,6 +138,7 @@ for (j = 0; j < dim; j++) {
       bad = true;
     var node = document.createTextNode(text);
     var tdl = document.createElement("td");
+
     if (board[i][j][k][l].set != previous[i][j][k][l].set)
       tdl.setAttribute("class", "changed");
     tdl.setAttribute("align", "center");
@@ -147,10 +148,12 @@ for (j = 0; j < dim; j++) {
   ibody.appendChild(trj);
 }
 var itbl = document.createElement("table");
+
 itbl.setAttribute("border", 1);
 itbl.setAttribute("width", "100%");
 itbl.appendChild(ibody);
 var tdk = document.createElement("td");
+tdk.className = "td-class border solve"
 tdk.setAttribute("align", "center");
 tdk.appendChild(itbl);
 tri.appendChild(tdk);
@@ -158,6 +161,7 @@ tri.appendChild(tdk);
 tbody.appendChild(tri);
 }
 var tbl = document.createElement("table");
+tbl.className =  "table-responsive";
 tbl.setAttribute("border", 1);
 tbl.setAttribute("align", "center");
 tbl.appendChild(tbody);
