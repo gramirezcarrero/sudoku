@@ -1,3 +1,4 @@
+npm install bower -g
 bower install bootstrap
 mkdir public/css
 cp bower_components/bootstrap/dist/css/bootstrap.min.css public/css
