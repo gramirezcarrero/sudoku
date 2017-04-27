@@ -12,7 +12,6 @@ table-responsive { border:none; }
 	border-radius: 30px;
 	text-align: center;
 	margin: 3px;
-
 }
 .border input{
 	background: #A1D4CD;
@@ -21,9 +20,9 @@ table-responsive { border:none; }
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 .middle input{
 	background:#FAF6F5;
@@ -33,12 +32,12 @@ input::-webkit-inner-spin-button {
 }
 td.changed    { color: red }
 .nav ul {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
 	font-size: 14px;
-  text-align: center;
+	text-align: center;
 	background: rgba(255,255,255,0.9);
 	border-bottom: 1px rgba(0,0,0,0.1) solid;
 	font-weight: 300;
@@ -47,38 +46,35 @@ td.changed    { color: red }
 	text-transform: uppercase;
 }
 .nav li {
-  display: inline-block;
-  margin: 0 .5em;
-  	-webkit-transition: background 0.5s ease;
-		-moz-transition: background 0.5s ease;
-        -ms-transition: background 0.5s ease;
-        -o-transition: background 0.5s ease;
-		transition: background 0.5s ease;
+	display: inline-block;
+	margin: 0 .5em;
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	transition: background 0.5s ease;
 }
 .nav a {
-  display: block;
-  padding: .8em .6em;
-  color: #575758;
-  text-decoration: none;
+	display: block;
+	padding: .8em .6em;
+	color: #575758;
+	text-decoration: none;
 }
 .nav a:hover {
 	background-color: #ea5745;
-color: white;
-
--webkit-transition: background 0.2s ease-in-out;
-		-moz-transition: background 0.2s ease-in-out;
-        -ms-transition: background 0.2s ease-in-out;
-        -o-transition: background 0.2s ease-in-out;
-		transition: background 0.2s ease-in-out;
-
-
+	color: white;
+	-webkit-transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
+}
 .nav a:active{
-background: black;
-color:white;
--webkit-transition: background 0.2s ease-in-out;
-		-moz-transition: background 0.2s ease-in-out;
-        -ms-transition: background 0.2s ease-in-out;
-        -o-transition: background 0.2s ease-in-out;
-		transition: background 0.2s ease-in-out;
-
+	background: black;
+	color:white;
+	-webkit-transition: background 0.2s ease-in-out;
+	-moz-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
 }
